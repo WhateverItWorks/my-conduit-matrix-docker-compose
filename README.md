@@ -1,6 +1,21 @@
 # my-conduit-matrix-docker-compose
 [Conduit](https://conduit.rs/) is a simple, fast and reliable matrix homeserver written in rust.
 
+### Automatic Installs
+```
+https://github.com/WhateverItWorks/Watchtower
+```
+
+### Maintaining
+
+```
+docker-compose down
+docker-compose pull
+docker-compose up -d
+docker logs conduit
+docker logs element-web
+```
+
 ## Security Audits:
 
 - [Internet.nl](https://internet.nl/site/element.whateveritworks.org/2060148/)
