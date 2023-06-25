@@ -1,5 +1,5 @@
 # my-conduit-matrix-docker-compose
-Conduit is a simple, fast and reliable matrix homeserver written in rust.
+[Conduit](https://conduit.rs/) is a simple, fast and reliable matrix homeserver written in rust.
 
 ## Security Audits:
 
