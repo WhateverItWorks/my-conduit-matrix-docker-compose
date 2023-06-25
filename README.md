@@ -16,6 +16,12 @@ docker logs conduit
 docker logs element-web
 ```
 
+### Contact
+
+```
+https://matrix.to/#/@xbdm:matrix.whateveritworks.org
+```
+
 ## Security Audits:
 
 - [Internet.nl](https://internet.nl/site/element.whateveritworks.org/2060148/)
