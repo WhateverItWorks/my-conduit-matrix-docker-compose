@@ -66,3 +66,7 @@ https://matrix.to/#/@xbdm:matrix.whateveritworks.org
 ### Homeserver Testing
 
 - [Matrix Federation Tester](https://federationtester.matrix.org/#matrix.whateveritworks.org)
+
+### Issues
+
+- [Docker - config.json is ignored #1314](https://github.com/cinnyapp/cinny/issues/1314)
