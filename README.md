@@ -6,12 +6,16 @@
 https://github.com/WhateverItWorks/Watchtower
 ```
 
-### Maintaining
+### Deploy with Docker-Compose
 
 ```
 docker-compose down
 docker-compose pull
 docker-compose up -d
+```
+
+### View Logs
+```
 docker logs conduit
 docker logs element-web
 ```
