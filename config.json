@@ -1,9 +1,7 @@
 {
   "defaultHomeserver": 3,
   "homeserverList": [
-    "matrix.whateveritworks.org",
-    "matrix.org",
-    "mozilla.org"
+    "matrix.whateveritworks.org"
   ],
   "allowCustomHomeservers": true
 }
