@@ -31,10 +31,10 @@ services:
             CONDUIT_ADDRESS: 0.0.0.0 # Ignore this
             CONDUIT_CONFIG: '' # Ignore this
 
-    element-web:
-         container_name: element-web
-         hostname: element-web
-         image: vectorim/element-web:latest
+    cinny-web:
+         container_name: cinny-web
+         hostname: cinny-web
+         image: ghcr.io/cinnyapp/cinny:latest
          restart: always
          security_opt:
              - no-new-privileges:true
@@ -47,7 +47,7 @@ services:
          ports:
              - '127.0.0.1:8009:80'
          volumes:
-             - ./element_config.json:/app/config.json
+             - ./config.json:/app/config.json
          depends_on:
              - conduit
 volumes:
