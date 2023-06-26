@@ -17,7 +17,7 @@ docker-compose up -d
 ### View Logs
 ```
 docker logs conduit
-docker logs element-web
+docker logs cinny-web
 ```
 
 ### Contact
@@ -53,13 +53,14 @@ https://matrix.to/#/@xbdm:matrix.whateveritworks.org
 
 4. ```git clone https://github.com/WhateverItWorks/my-conduit-matrix-docker-compose.git matrix```
 
-5. ```nano element_config.json```
+5. ```nano config.json```
 
 6. ```nano docker-compose.yml```
 
 7. ```docker-compose up -d```
 
-```http://localhost:8448```
+```http://localhost:8448 (Matrix)```
+```http://localhost:8009 (Cinny)```
 
 ### Homeserver Testing
 
