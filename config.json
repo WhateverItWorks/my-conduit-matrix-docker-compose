@@ -1,7 +1,6 @@
 {
-  "defaultHomeserver": 3,
-  "homeserverList": [
-    "matrix.whateveritworks.org"
-  ],
-  "allowCustomHomeservers": true
-}
+    "defaultHomeserver": 0,
+    "homeserverList": [
+      "matrix.whateveritworks.org"
+    ]
+  }
