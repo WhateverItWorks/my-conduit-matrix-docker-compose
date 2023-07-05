@@ -1,6 +1,9 @@
 # my-conduit-matrix-docker-compose
 [Conduit](https://conduit.rs/) is a simple, fast and reliable matrix homeserver written in rust.
 
+### €⁠20 on [Hetzner Cloud](https://hetzner.cloud/?ref=eLtKhFK70n4h)
+
+
 ### Automatic Installs
 ```
 https://github.com/WhateverItWorks/Watchtower
@@ -9,10 +12,28 @@ https://github.com/WhateverItWorks/Watchtower
 ### Deploy with Docker-Compose
 
 ```
+git clone https://github.com/WhateverItWorks/my-conduit-matrix-docker-compose.git matrix
+cd matrix
+nano config.json
+nano docker-compose.yml
+docker-compose up -d
+```
+http://localhost:8448 (Matrix)
+
+http://localhost:8009 (Cinny)
+
+
+### Maintaining
+```
 docker-compose down
 docker-compose pull
 docker-compose up -d
 ```
+
+### Homeserver Testing
+
+- [Matrix Federation Tester](https://federationtester.matrix.org/#matrix.whateveritworks.org)
+
 
 ### View Logs
 ```
@@ -42,27 +63,3 @@ https://matrix.to/#/@xbdm:matrix.whateveritworks.org
 - [csp-evaluator.withgoogle.com](https://csp-evaluator.withgoogle.com/)
 - [OpenWPM](https://github.com/openwpm/OpenWPM)
 - [privacyscore.org](https://privacyscore.org)
-
-## Usage:
-
-1. Buy [Hetzner.com](https://hetzner.com) it's 100% renewal hardware and you get affordable dedicated servers, and you also help save the world.
-
-2. Get [Cloudflare](https://cloudflare.com) it's carbon renewal and you help save the world.
-
-3. ```apt install git```
-
-4. ```git clone https://github.com/WhateverItWorks/my-conduit-matrix-docker-compose.git matrix```
-
-5. ```nano config.json```
-
-6. ```nano docker-compose.yml```
-
-7. ```docker-compose up -d```
-
-```http://localhost:8448 (Matrix)```
-
-```http://localhost:8009 (Cinny)```
-
-### Homeserver Testing
-
-- [Matrix Federation Tester](https://federationtester.matrix.org/#matrix.whateveritworks.org)
