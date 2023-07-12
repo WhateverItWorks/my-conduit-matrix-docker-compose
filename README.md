@@ -34,6 +34,8 @@ docker-compose up -d
 
 - [Matrix Federation Tester](https://federationtester.matrix.org/#matrix.whateveritworks.org)
 
+### Issue Fixes
+[End-to-End Encryption breaks Admin Room](https://gitlab.com/famedly/conduit/-/issues/326#note_1213758498)
 
 ### View Logs
 ```
