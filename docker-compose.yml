@@ -16,7 +16,7 @@ services:
         ports:
             - '127.0.0.1:8448:6167'
         volumes:
-            - db:/var/lib/matrix-conduit/
+            - ./db:/var/lib/matrix-conduit/
         environment:
             CONDUIT_SERVER_NAME: changethis
             CONDUIT_DATABASE_PATH: /var/lib/matrix-conduit/
@@ -27,6 +27,7 @@ services:
             CONDUIT_ALLOW_FEDERATION: 'true'
             CONDUIT_TRUSTED_SERVERS: '["matrix.org"]'
             CONDUIT_MAX_CONCURRENT_REQUESTS: 100
+            #CONDUIT_EMERGENCY_PASSWORD: 'changethis' # End-to-End Encryption breaks Admin Room
             CONDUIT_LOG: warn,rocket=off,_=off,sled=off
             CONDUIT_ADDRESS: 0.0.0.0 # Ignore this
             CONDUIT_CONFIG: '' # Ignore this
